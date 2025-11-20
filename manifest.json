@@ -1,0 +1,15 @@
+{
+  "filelocations": [
+    {
+      "URI": [
+        "s3://quick-sight-19-11-2025/amazon_bestsellers_sample.csv"
+      ]
+    }
+  ],
+  "globalUploadSettings": {
+    "format": "CSV",
+    "delimiter": ",",
+    "textqualifier": "\"",
+    "containsHeader": "true"
+  }
+}

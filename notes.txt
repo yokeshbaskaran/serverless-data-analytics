@@ -1,0 +1,24 @@
+S3 + QuickSight:
+-----------
+
+Manifest.json
+---
+
+{
+  "filelocations": [
+    {
+      "URI": [
+        "s3://quicksightsdemobucket1/Amazon-Bestseller-Dataset.CSV"
+      ]
+    }
+  ],
+  "globalUploadSettings": {
+    "format": "CSV",
+    "delimiter": ",",
+    "textqualifier": "\"",
+    "containsHeader": "true"
+  }
+}
+
+
+Idea: https://www.linkedin.com/pulse/have-quick-sight-your-data-amazon-quicksight-s3-sachin-adi/
